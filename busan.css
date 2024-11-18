@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(9, 43, 137);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 40px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+.container h1{
+    font-size: 100px;
+    margin:100px 0px 0px 100px;
+}
+.container p{
+    font-size: 10px;
+    margin-left: 120px;
+}
+#wow{
+    text-align: center;
+    width: 495px;
+    height: 700px;
+    filter: brightness(50%);
+    margin-top: 60px;
+    
+}
+#wow:hover{
+    filter: brightness(100%);
+}
+.box{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 300px;
+}
+.box h2{
+    font-size: 40px;
+}
+.box h1{
+    font-size:25px;
+}
+#super{
+    height: 500px;
+}
+.box ul{
+    list-style: none;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 400px;
+    
+}
+.box p{
+    margin: 100px;
+    font-size: 15px;
+    width: 1100px;
+    height: 150px;
+    background-color: rgb(9, 43, 137);
+    color: white;
+    padding: 100px;
+
+}
+.price{
+    border: 2px solid black;
+    width: 400px;
+    text-align: left;
+    margin-left: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.prices{
+    border: 2px solid black;
+    width: 400px;
+    text-align: left;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+.side{
+    display: flex;
+  
+   
+}
+.phone a{
+    list-style: none;
+    margin-top: 40px;
+    background-color: #f2b203;
+    border-radius: 5px;
+    font-size: 25px;
+    text-decoration: none;
+}
+.prices a{
+    text-decoration: none;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.look{
+    display: flex;
+    padding-left: 300px;
+}
+.lookss{
+    padding-left:350px ;
+    text-align: left;
+}
+.lookss p{
+    font-size: 12px;
+
+}
+.looks{
+    text-align: left;
+}
+
+.looks p{
+    font-size: 12px;
+}
+.loo{
+    padding-left: 250px;
+    text-align: left;
+}
+.loo p{
+    font-size: 12px;
+   
+}

@@ -1,0 +1,252 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: linear-gradient(to right, #4CAF50, #2196F3);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 40px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+nav ul li a:hover{
+    color: black;
+}
+.content{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to right, #4CAF50, #2196F3);
+    height: 150px;
+    padding: 100px;
+
+    
+}
+.row{
+    text-align: center;
+    height:250px ;
+    margin-top: 80px;
+    font-size: 20px;
+}
+.row p{
+    font-size: 15px;
+
+}
+
+
+.icon{
+    width: 100px;
+    height: 5dvh;
+    padding-top: 15px;
+    text-align: center;
+    margin: auto;
+    border-radius: 40%;
+    
+    
+}
+.hero {
+    background-image: url('https://img.freepik.com/free-vector/flat-design-travel-background_23-2149193475.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+   
+    justify-content: center;
+    align-items: center;
+  
+}
+#wow{
+   
+    height: 300px;
+    width: 400px;
+    display: block;
+    margin: auto;
+   padding-top: 70px;
+}
+
+.hero-content {
+    text-align: center;
+    color: black;
+    transform: rotateY(-20deg);
+    animation: rotate 5s infinite alternate ease-in-out;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateY(-30deg);
+    }
+    to {
+        transform: rotateY(30deg);
+    }
+}
+
+.hero h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background-color: #0f4610;
+}
+
+.destinations {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.destinations h2 {
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: #333;
+}
+
+.destination-card {
+    display: inline-block;
+    width: 350px;
+    height: 500px;
+    margin: 20px;
+    background: linear-gradient(to right, #4CAF50, #2196F3);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transform: rotateY(-15deg);
+    transition: transform 0.5s ease;
+}
+
+.destination-card:hover {
+    transform: rotateY(0deg) scale(1.05);
+}
+
+.card-content h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.card-content p {
+    font-size: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.des_container{
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 40px;
+
+}
+.des_container img{
+    border-radius: 10px;
+
+}
+.des {
+    font-size: 20px;
+    text-align: center;
+}
+.des h4{
+    font-size: 15px;
+
+}
+.video{
+    background-position: center;
+}
+.look{
+    display: flex;
+    padding-left: 250px;
+}
+.lookss{
+    padding-left:250px ;
+    text-align: left;
+}
+.lookss p{
+    font-size: 15px;
+
+}
+.looks{
+    text-align: left;
+}
+
+.looks p{
+    font-size: 15px;
+}
+.loo{
+    padding-left: 300px;
+    text-align: left;
+}
+.loo p{
+    font-size: 15px;
+   
+}
+.side{
+    display: flex;
+}
+.sides h1 {
+    font-size: 40px;
+    margin-left: 650px;
+    margin-bottom: 70px;
+}
+
+.won{
+   margin-top: 190px;
+   margin-right: 50px;
+   background: linear-gradient(to right, #4CAF50, #2196F3);
+   color: white;
+    padding: 100px;
+    height: 700px;
+    font-size: 15px;
+
+}
+.sides{
+    padding: 30px;
+    width: 1500px;
+}
+.on{
+    margin-top: 50px;
+}

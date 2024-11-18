@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the World</title>
+    <link rel="stylesheet" href="aboutss.css">
+    <link rel="icon" href="imgg.png">
+</head>
+<body>
+    <header>
+        <h1>Explore the World</h1>
+        <nav>
+           <input type="text" placeholder="search"><br>
+        </nav>
+    </header>
+
+    <main>
+        <section class="destination">
+            <h2>Korea</h2>
+            <img src="korea.jpg" height="280px" alt="Korea">
+            <p>Discover the vibrant culture and history of Korea. From bustling cities to tranquil temples, Korea offers a unique blend of tradition and modernity.</p>
+            <a target="_blank" href="korea.html" class="button">Learn More</a>
+        </section>
+
+        <section class="destination">
+            <h2>India</h2>
+            <img src="https://www.trinityairtravel.com/bblog/7980_second.jpg" alt="Korea" height="280px">
+            <p>Discover the vibrant culture and history of India. From bustling cities to tranquil temples, India offers a unique blend of tradition and modernity.</p>
+            <a  target="_blank" href="india.html" class="button">Learn More</a>
+        </section>
+        
+        <section class="destination">
+            <h2>France</h2>
+            <img src="https://travel.usnews.com/images/New_Paris_pic_z3GdX0a.jpg" height="280px" alt="Paris">
+            <p>Experience the romance and charm of Paris. Visit iconic landmarks like the Eiffel Tower and explore the art, cuisine, and history of this beautiful city.</p>
+            <a target="_blank" href="france.html" class="button">Learn More</a>
+        </section>
+        
+        <section class="destination">
+            <h2>New Zealand</h2>
+            <img src="newyork.webp" height="280px" alt="New York">
+            <p>The city that never sleeps! Explore the skyscrapers, theaters, and bustling streets of New York City. A place where dreams come true.</p>
+            <a target="_blank" href="newzealand.html" class="button">Learn More</a>
+        </section>
+
+        <section class="destination">
+            <h2>Tokyo</h2>
+            <img src="tokyo.jpg" height="280" alt="Tokyo">
+            <p>Tokyo blends the traditional with the futuristic. Explore ancient temples and shrines alongside neon-lit streets and cutting-edge technology.</p>
+            <a target="_blank" href="tokyo.html" class="button">Learn More</a>
+        </section>
+
+        
+        
+        <section class="destination">
+            <h2>sydney</h2>
+            <img src="https://media.tatler.com/photos/6141d37b9ce9874a3e40107d/16:9/w_2560%2Cc_limit/social_crop_sydney_opera_house_gettyimages-869714270.jpg" height="280" alt="sydney">
+            <p>Experience the romance and charm of Paris. Visit iconic landmarks like the Eiffel Tower and explore the art, cuisine, and history of this beautiful city.</p>
+            <a target="_blank" href="sydney.html" class="button">Learn More</a>
+        </section>
+        
+        <section class="destination">
+            <h2>Switzerland</h2>
+            <img src="https://media.cntraveler.com/photos/639c6b27fe765cefd6b219b7/16:9/w_2580,c_limit/Switzerland_GettyImages-1293043653.jpg" height="280" alt="New York">
+            <p>The city that never sleeps! Explore the skyscrapers, theaters, and bustling streets of New York City. A place where dreams come true.</p>
+            <a target="_blank" href="Switzerland.html" class="button">Learn More</a>
+        </section>
+
+        <section class="destination">
+            <h2>USA</h2>
+            <img src="https://www.flamingotravels.co.in/blog/wp-content/uploads/2023/01/Feture-image.jpg" height="280" alt="Tokyo">
+            <p>Tokyo blends the traditional with the futuristic. Explore ancient temples and shrines alongside neon-lit streets and cutting-edge technology.</p>
+            <a target="_blank" href="usa.html" class="button">Learn More</a>
+        </section>
+
+        
+    </main>
+        <script>
+    // Function to handle the search
+    function searchState() {
+        // Get the input from the search bar
+        let input = document.querySelector("nav input").value.toLowerCase();
+        
+        // Get all destination sections
+        let sections = document.querySelectorAll(".destination");
+
+        // Loop through each section
+        sections.forEach(section => {
+            // Get the section id or state name from the heading
+            let stateName = section.querySelector("h2").textContent.toLowerCase();
+
+            // Check if the input matches the state name
+            if (stateName.includes(input)) {
+                section.style.display = "block"; // Show the matching section
+            } else {
+                section.style.display = "none"; // Hide the non-matching sections
+            }
+        });
+    }
+
+    // Add event listener to search input
+    document.querySelector("nav input").addEventListener("input", searchState);
+</script>
+
+    <footer>
+        <div class="look">
+            <div class="looks">
+                <h1> SLOOK </h1>
+                <h5>For Explorers Everywhere</h5><br>
+                <p>contact us:</p>
+                <p>slook@gamil.com</p>
+            </div>
+            <div class="lookss">
+                <h2>Top destinations</h2>
+                <p>korea<br>
+                    India<br>
+                    Paris<br>
+                    Italy<br>
+                    USA<br></p>
+            </div>
+            <div class="loo">
+                <h2>Travel Interests</h2>
+                <p>Adventure Travel<br>
+                    Family Holidays<br>
+                    Food and Drink<br>
+                    Beaches and Island</p>
+            </div>
+        </div>
+        <p>&copy; 2024 SLOOK Explore the World . All rights reserved.</p>
+    </footer>
+</body>
+</html>

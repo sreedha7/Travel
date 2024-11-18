@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: rgb(9, 43, 137);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 40px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.container h1{
+    font-size: 35px;
+    margin: 50px;
+}
+.container p{
+    font-size: 20px;
+    margin: 50px;
+}
+.container h2{
+    font-size: 30px;
+    margin: 50px;
+}
+.box{
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    width: 550px;
+    margin: 40px;
+    height: 200px;
+    padding: 40px;
+}
+.box p{
+    font-size: 15px;
+}
+#pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+    box-shadow:0 5px 15px gray ;
+    object-fit: cover;
+
+}
+.boxs{
+    display: flex;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.look{
+    display: flex;
+    padding-left: 300px;
+}
+.lookss{
+    padding-left:250px ;
+    text-align: left;
+}
+.lookss p{
+    font-size: 12px;
+
+}
+.looks{
+    text-align: left;
+}
+
+.looks p{
+    font-size: 12px;
+}
+.loo{
+    padding-left: 250px;
+    text-align: left;
+}
+.loo p{
+    font-size: 12px;
+   
+}

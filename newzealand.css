@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(9, 43, 137);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 40px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.photo{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://www.citigroup.com/rcs/v1/siteIds/citigpa/asset/63895c15d2b14b2b67154008.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+.box{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 70px;
+    padding:100px;
+}
+.place{
+    font-size: 30px;
+    padding: 60px;
+}
+.place p{
+   font-size: 18px;
+}
+.place img{
+  
+    width: 350px;
+    margin-left: 70px;
+    margin-top: 80px;
+    border-radius: 20px;
+}
+.country 
+{
+    font-size: 30px;
+    padding: 60px;
+}
+.cantainer img{
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin-left: 130px;
+}
+.cantainer_card {
+    width: 700px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    padding: 30px;
+    border-radius:10px ;
+    
+ 
+}
+
+.cantainer_card p{
+    font-size: 12px;
+    width:500px;
+    padding-left: 100px;
+}
+#id{
+    margin-left: 1500px;
+
+}
+#sravya{
+  
+    width: 1000px;
+}
+#sreedha{
+    display: flex;
+  
+}
+.wow{
+    padding-left: 100px;
+    padding-top: 200px;
+    width: 700px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+#pic{
+    border-radius: 20px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.blue{
+    background-color: lightblue;
+}
+.blue h1{
+    margin-left: 900px;
+    padding-top: 500px;
+}
+.look{
+    display: flex;
+    padding-left: 300px;
+}
+.lookss{
+    padding-left:250px ;
+    text-align: left;
+}
+.lookss p{
+    font-size: 12px;
+
+}
+.looks{
+    text-align: left;
+}
+
+.looks p{
+    font-size: 12px;
+}
+.loo{
+    padding-left: 250px;
+    text-align: left;
+}
+.loo p{
+    font-size: 12px;
+   
+}

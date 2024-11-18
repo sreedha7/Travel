@@ -1,0 +1,50 @@
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/889/057/original/light-blue-green-background-with-clouds-vector.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    padding-top: 50px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.id2 h1{
+    font-size: 5px;
+}
+.id1{
+
+    margin-left: 500px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 550px;
+    border: 2px solid black;
+    transform: rotateY(-15deg);
+    transition: transform 0.5s ease;
+}
+
+.id1:hover {
+transform: rotateY(0deg) scale(1.05);
+}
+
+.id{
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+
+}
+.id7 {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+input{
+    width: 300px;
+    height: 30px;
+}
+button{
+    background-color: white;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}

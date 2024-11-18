@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/889/057/original/light-blue-green-background-with-clouds-vector.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+#super{
+    
+    height: 450px;
+    width: 550px;
+    background-color: transparent;
+    border: 2px solid black;
+    backdrop-filter: blur(500px);
+    border-radius: 10px;
+     transform: rotateY(-15deg);
+     transition: transform 0.5s ease;
+}
+
+#super:hover {
+transform: rotateY(0deg) scale(1.05);
+}
+.id{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+input{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid black;
+}
+.login{
+    color: black;
+    min-height: 7vh;
+    text-align: center;
+    justify-content: center;
+    
+}
+.logins{
+    min-height: 7vh;
+    text-align: center;
+    justify-content: center;
+    
+}
+.poo{
+    padding: 9px 20px 0px 350px;
+    color: white;
+    
+}
+::placeholder{
+    padding:10px ;
+    color: black;
+}

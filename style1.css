@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://img.freepik.com/free-vector/flat-design-travel-background_23-2149193475.jpg");
+    background-size: cover;
+    height: 0px;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+.nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+.nav ul li{
+    display: inline-block;
+    margin: 5px 50px;
+}
+.nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 30px;
+}
+img{
+    padding-left:50px ;
+    height:100px;
+    width: 5px;
+}
+.pen{
+    width: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    font-size: 30px;
+    color: rgb(49, 49, 196);
+}
+i{
+    padding-left: 100px;
+}
+.big .travel{
+    font-size: 80px;
+    float:left;
+    padding-top: 200px;
+    padding-left: 300px;
+    color:rgb(20, 124, 20);
+    display: inline-block;
+} 
+img{
+    height: 400px;
+    width: 600px;
+    display: flex;
+    float:right;
+    padding-top: 200px;
+    padding-right: 300px;
+    border-radius: 200px;
+}
