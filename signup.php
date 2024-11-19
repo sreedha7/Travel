@@ -57,9 +57,9 @@
         alert("enter the email");
         return false;
     }
-    if(passwords.length>2)
+    if(password=="")
     {
-        alert("enter 8 char");
+        alert("enter password");
         return false;
     }
     if(cpasswords==="")
@@ -76,7 +76,7 @@
     <section class="id1">
         
         <div clsss="id2">
-           <h1> SIGN IN</h1>
+           <h1> SIGN UP</h1>
         </div>
         <form method="post">
         <div class="id">
@@ -107,7 +107,7 @@
 
         <div class="id">
             <button type="submit" onclick="form1()" >create account</button>
-            <p> Don't you have account? <a href="login.php">login</a></p>
+            <p> If you have account? <a href="login.php">login</a></p>
         </div>
         <p style="font-size: 20px;"> or</p>
 
